@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.padding-site {
+    padding-right: 98px;
+    padding-left: 98px;
+}
+
+.slider {
+    height: 800px;
+    background-image: url("img/slider.jpg");
+    position: relative;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #212121;
+}
+
+.menu-link:active {
+    color: #43a047;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.slider-text {
+    margin-top: 283px;
+}
+
+.slider-trending {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.slider-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.button {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #c7c7c7;
+}
+
+.button:active {
+    color: #43a047;
+}
+
+.pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 16px;
+    text-align: center;
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+.circle:active {
+    background-color: #43a047;
+}
+
+.circle-active {
+    height: 40px;
+    width: 40px;
+    background-color: #212121;
+    margin-bottom: 0;
+}
+.circle-active:hover {
+    background-color: #c7c7c7;
+}
+.circle-active:active {
+    background-color: #43a047;
+}
+
+
+
+.footer{
+    height: 384px;
+    width: 1366px;
+    background-image: url("img/footer-back.svg");
+}
+.contactUs-h3{
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+.contactUs-content{
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+}
+.usefulInform-list{
+   list-style-type: none;
+}
+.usefulInform-link{
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+.subscribe-h3{
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+.subscribe-content{
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+}
+.email{
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+}
